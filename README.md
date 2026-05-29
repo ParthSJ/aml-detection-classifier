@@ -35,7 +35,7 @@ The core challenge: fraudulent transactions represent only **~0.10%** of all rec
 ├── Nagashri_Modeling.ipynb                 # L2 LR & MLP Neural Network
 ├── cross_group_comparison_final.csv        # Aggregated results for dashboard
 ├── COMM074_Group_19_Final_Report.pdf       # Full project report
-└── Readme_Group-19.rtf                     # Submission notes
+└── README.md                               # This file
 ```
 
 ---
@@ -77,6 +77,21 @@ To reproduce the data pipeline, run `Group_Notebook_1_Data_Prep.ipynb` which wil
 - **XGBoost with threshold tuning** (0.93) is the recommended deployment model — 80.3% Recall with 55% fewer false positives vs default threshold
 - **Top fraud predictors**: Payment format (Cheque, Credit Card), Amount Received/Paid, and Bank IDs
 - **Neural networks underperform tree-based models** on structured tabular financial data
+
+---
+
+## 📓 View Notebooks
+
+> GitHub may fail to render notebooks. Use the links below to view them properly via **nbviewer**:
+
+| Notebook | nbviewer Link |
+|----------|--------------|
+| Data Preparation & EDA | [View](https://nbviewer.org/github/ParthSJ/aml-detection-classifier/blob/main/Group_Notebook_1_Data_Prep.ipynb) |
+| Visualisation Dashboard | [View](https://nbviewer.org/github/ParthSJ/aml-detection-classifier/blob/main/Group_Notebook_2_Visualisation.ipynb) |
+| Piyush — LightGBM & ElasticNet LR | [View](https://nbviewer.org/github/ParthSJ/aml-detection-classifier/blob/main/Piyush_Modelling_Notebook_final.ipynb) |
+| Parth — XGBoost & Vanilla LR | [View](https://nbviewer.org/github/ParthSJ/aml-detection-classifier/blob/main/Parth_Modelling_Notebook_final.ipynb) |
+| Akash — Random Forest & L1 LR | [View](https://nbviewer.org/github/ParthSJ/aml-detection-classifier/blob/main/Akash_Modelling_CW_F.ipynb) |
+| Nagashri — MLP & L2 LR | [View](https://nbviewer.org/github/ParthSJ/aml-detection-classifier/blob/main/Nagashri_Modeling.ipynb) |
 
 ---
 
